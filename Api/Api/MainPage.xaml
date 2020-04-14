@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Api.MainPage">
+
+    <RelativeLayout>
+        <Image Source="http://wallsdesk.com/wp-content/uploads/2016/03/Eagle-Android-Wallpapers.jpg" 
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}"/>
+        <Grid RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}">
+
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Bienvenidos" BackgroundColor="AliceBlue" FontSize="30"></Label>
+                </StackLayout>
+                <Label Text="CLICK EN LA OPCION QUE QUIERAS" BackgroundColor="AliceBlue"></Label>
+                <Image Source="perfil.png"></Image>
+                <Button Text="Usuarios" x:Name="btnver"  BackgroundColor="AliceBlue"></Button>
+                <Button Text="Productos" x:Name="btnmostrar"  BackgroundColor="AliceBlue"></Button>
+                <Button Text="Pedidos" x:Name="btnobservar"  BackgroundColor="AliceBlue"></Button>
+            </StackLayout>
+        </Grid>
+    </RelativeLayout>
+
+</ContentPage>
