@@ -7,11 +7,11 @@ namespace Api
     class Productos
     {
         public int id_producto { get; set; }
-        public string nombre_producto { get; set; }
+        public string Nombre { get; set; }
 
-        public Int32? valor_producto { get; set; }
-        public string codigo_producto { get; set; }
+        public Int32? Valor { get; set; }
+        public string Codigo { get; set; }
 
-        public string url_img { get; set; }
+        public string Imagen { get; set; }
     }
 }

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Api.MasvendidosPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Margin="0,0,0,20" FontSize="Large" Text="Mas Vendidos" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Frame BackgroundColor="Crimson" BorderColor="DarkSlateGray" Padding="0">
+                <Grid Padding="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        
+                    </Grid.ColumnDefinitions>
+
+                    <Label Margin="10,0,10,0" Text="Producto" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
+                    <Label Margin="10,0,10,0" Text="Usuario" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1"/>
+                    <Label Margin="10,0,10,0" Text="Valor" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
+                    <Label Margin="10,0,10,0" Text="Cantidad" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="3"/>
+                   
+
+                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="3" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="2" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                    
+
+                </Grid>
+            </Frame>
+                <ListView x:Name="masvendidos" SeparatorVisibility="None" SelectionMode="None">
+                    <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Padding="0">
+                                <Grid Padding="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="4*"/>
+                                        <ColumnDefinition Width="4*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                        
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Margin="10,0,10,0" Text="{Binding producto}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
+                                    <Label Margin="10,0,10,0" Text="{Binding usuario}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1"/>
+                                    <Label Margin="10,0,10,0" Text="{Binding valor}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
+                                    <Label Margin="10,0,10,0" Text="{Binding cantidad}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="3"/>
+                                   
+
+                                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="2" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="2" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    
+
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

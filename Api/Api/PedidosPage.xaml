@@ -16,11 +16,13 @@
                             <ColumnDefinition Width="5*"/>
 
                         </Grid.ColumnDefinitions>
-                        <Button Text="Agregar" Grid.Column="0"/>
-                        <Button Text="Eliminar" Grid.Column="1"/>
+                        <Button Text="masvendidos" x:Name="btnvendidos" Grid.Column="0"/>
+                        <Button Text="comprados" x:Name="btncomprados" Grid.Column="1"/>
+                        <Button Text="cancelados" Grid.Column="2"/>
 
                         <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
                         <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
                     </Grid>
                 </Frame>
             </StackLayout>

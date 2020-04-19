@@ -64,8 +64,8 @@
                                     </Grid.ColumnDefinitions>
 
                                     <Label Margin="10,0,10,0" Text="{Binding id_usuario}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
-                                    <Label Margin="10,0,10,0" Text="{Binding nombre}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1"/>
-                                    <Label Margin="10,0,10,0" Text="{Binding usuario}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
+                                    <Label Margin="10,0,10,0" Text="{Binding Nombre}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1"/>
+                                    <Label Margin="10,0,10,0" Text="{Binding User}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
                                     <Label Margin="10,0,10,0" Text="{Binding pass}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="3"/>
                                     
 
