@@ -8,21 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Api.CompradosPage.xaml", "CompradosPage.xaml", typeof(global::Api.CompradosPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Api.CanceladosPage.xaml", "CanceladosPage.xaml", typeof(global::Api.CanceladosPage))]
 
 namespace Api {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("CompradosPage.xaml")]
-    public partial class CompradosPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("CanceladosPage.xaml")]
+    public partial class CanceladosPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.ListView comprados;
+        private global::Xamarin.Forms.ListView cancelado;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CompradosPage));
-            comprados = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "comprados");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CanceladosPage));
+            cancelado = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "cancelado");
         }
     }
 }

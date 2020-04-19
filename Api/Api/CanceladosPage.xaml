@@ -4,13 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Api.CompradosPage">
+             x:Class="Api.CanceladosPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Margin="0,0,0,20" FontSize="Large" Text="Comprados" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
-            <StackLayout>
-
-            </StackLayout>
+            <Label Margin="0,0,0,20" FontSize="Large" Text="Cancelados" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
             <Frame BackgroundColor="Crimson" BorderColor="DarkSlateGray" Padding="0">
                 <Grid Padding="0">
                     <Grid.ColumnDefinitions>
@@ -33,7 +30,7 @@
 
                 </Grid>
             </Frame>
-            <ListView x:Name="comprados" SeparatorVisibility="None" SelectionMode="None">
+            <ListView x:Name="cancelado" SeparatorVisibility="None" SelectionMode="None">
 
                 <ListView.ItemTemplate>
                     <DataTemplate>

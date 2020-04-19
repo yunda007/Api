@@ -32,31 +32,23 @@
             <Frame BackgroundColor="Crimson" BorderColor="DarkSlateGray" Padding="0">
                 <Grid Padding="0">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="2*"/>
-                        <ColumnDefinition Width="2*"/>
-                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="4*"/>
                         <ColumnDefinition Width="2*"/>
                         <ColumnDefinition Width="2*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Label Margin="10,0,10,0" Text="ID_pedi" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
-                    <Label Margin="10,0,10,0" Text="ID_USU" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1"/>
-                    <Label Margin="10,0,10,0" Text="NOMBRE_PRO" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
-                    <Label Margin="10,0,10,0" Text="IMAGEN" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="3"/>
-                    <Label Margin="10,0,10,0" Text="CANTIDAD" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="4"/>
-                    <Label Margin="10,0,10,0" Text="VALOR_UNI" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="5"/>
-                    <Label Margin="10,0,10,0" Text="TOTAL" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="6"/>
+                    <Label Margin="10,0,10,0" Text="Producto" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
+                    <Label Margin="10,0,10,0" Text="Usuario" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1"/>
+                    <Label Margin="10,0,10,0" Text="Valor" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
+                    <Label Margin="10,0,10,0" Text="Cantidad" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="3"/>
+                   
 
                     <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
                     <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
                     <BoxView BackgroundColor="DarkSlateGray" WidthRequest="3" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
                     <BoxView BackgroundColor="DarkSlateGray" WidthRequest="2" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
-                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
-                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="2" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
-                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="2" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
-
+                    
                 </Grid>
             </Frame>
             <ListView x:Name="mostrar_pedidos" SeparatorVisibility="None" SelectionMode="None">
@@ -67,31 +59,23 @@
                             <Frame Padding="0">
                                 <Grid Padding="0">
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="1*"/>
-                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="4*"/>
+                                        <ColumnDefinition Width="4*"/>
                                         <ColumnDefinition Width="2*"/>
                                         <ColumnDefinition Width="2*"/>
-                                        <ColumnDefinition Width="2*"/>
-                                        <ColumnDefinition Width="2*"/>
-                                        <ColumnDefinition Width="2*"/>
+                                       
                                     </Grid.ColumnDefinitions>
 
-                                    <Label Margin="10,0,10,0" Text="{Binding id_pedido}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
-                                    <Label Margin="10,0,10,0" Text="{Binding id_usuario}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1"/>
-                                    <Label Margin="10,0,10,0" Text="{Binding nombre_producto}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
-                                    <Label Margin="10,0,10,0" Text="{Binding url_img}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="3"/>
-                                    <Label Margin="10,0,10,0" Text="{Binding cantidad}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="4"/>
-                                    <Label Margin="10,0,10,0" Text="{Binding valor_unitario}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="5"/>
-                                    <Label Margin="10,0,10,0" Text="{Binding valor_total}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="6"/>
-
+                                    <Label Margin="10,0,10,0" Text="{Binding producto}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
+                                    <Label Margin="10,0,10,0" Text="{Binding usuario}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1"/>
+                                    <Label Margin="10,0,10,0" Text="{Binding valor}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
+                                    <Label Margin="10,0,10,0" Text="{Binding cantidad}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="3"/>
+                                  
                                     <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
                                     <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
                                     <BoxView BackgroundColor="DarkSlateGray" WidthRequest="2" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
                                     <BoxView BackgroundColor="DarkSlateGray" WidthRequest="2" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
-                                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="2" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
-                                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="2" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
-                                    <BoxView BackgroundColor="DarkSlateGray" WidthRequest="2" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
-
+                                    
                                 </Grid>
                             </Frame>
                         </ViewCell>
