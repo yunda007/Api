@@ -18,7 +18,14 @@ namespace Api
         {
             InitializeComponent();
             GetProductos();
+            btnagregar.Clicked += Btnagregar_Clicked;
         }
+
+        private void Btnagregar_Clicked(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new AgregarPage());
+        }
+
         private async void GetProductos()
         {
             HttpClient client = new HttpClient();

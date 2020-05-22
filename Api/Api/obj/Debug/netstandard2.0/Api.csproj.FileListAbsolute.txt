@@ -11,7 +11,14 @@ C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Produc
 C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Api.dll
 C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\ref\Api.dll
 C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Api.pdb
-C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Api.csproj.CoreCompileInputs.cache
-C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\UsuariosPage.xaml.g.cs
 C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\PedidosPage.xaml.g.cs
+C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\CanceladosPage.xaml.g.cs
+C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\CompradosPage.xaml.g.cs
+C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\MasvendidosPage.xaml.g.cs
+C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\AgregarPage.xaml.g.cs
+C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Api.csproj.CoreCompileInputs.cache
+C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\ChatPage.xaml.g.cs
+C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\MensajesPage.xaml.g.cs
+C:\Users\Enderson Yunda\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\GuardarPage.xaml.g.cs

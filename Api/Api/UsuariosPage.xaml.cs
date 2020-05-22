@@ -18,7 +18,20 @@ namespace Api
         {
             InitializeComponent();
             GetUsuarios();
+            btnmensajes.Clicked += Btnmensajes_Clicked;
+            btnchat.Clicked += Btnchat_Clicked;
         }
+
+        private void Btnchat_Clicked(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new ChatPage());
+        }
+
+        private void Btnmensajes_Clicked(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new MensajesPage());
+        }
+
         private async void GetUsuarios()
         {
             HttpClient client = new HttpClient();

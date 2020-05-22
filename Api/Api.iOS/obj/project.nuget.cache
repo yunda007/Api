@@ -1,32 +1,40 @@
 {
   "version": 2,
-  "dgSpecHash": "vpGI2WbqQBT+1w+gyZnjpvVqdsGyMzJ19+5RvygmBjEm/BV9vpQMiSOrUr0srqT7rI+9E0T1ktVmm9T5XpKG6Q==",
-  "success": true,
+  "dgSpecHash": "7a0IknEELm8+zWuV5v0SceGigEtNIWmNcWaftWqzrpQxu9PmAaPIg/3lDz/BBhOUh0fKGBjsV98IEJNVZ5Vbjg==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Enderson Yunda\\source\\repos\\Api\\Api\\Api.iOS\\Api.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\doublecache\\1.6.1\\doublecache.1.6.1.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\google.apis\\1.45.0\\google.apis.1.45.0.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\google.apis.auth\\1.45.0\\google.apis.auth.1.45.0.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\google.apis.core\\1.45.0\\google.apis.core.1.45.0.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\google.apis.doubleclickbidmanager.v1\\1.45.0.1901\\google.apis.doubleclickbidmanager.v1.1.45.0.1901.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\json\\1.0.1\\json.1.0.1.nupkg.sha512",
     "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.3\\microsoft.aspnetcore.http.features.3.1.3.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.4\\microsoft.aspnetcore.http.features.3.1.4.nupkg.sha512",
     "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.3\\microsoft.extensions.configuration.fileextensions.3.1.3.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.3\\microsoft.extensions.configuration.json.3.1.3.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.3\\microsoft.extensions.fileproviders.abstractions.3.1.3.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.3\\microsoft.extensions.fileproviders.physical.3.1.3.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.3\\microsoft.extensions.filesystemglobbing.3.1.3.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.4\\microsoft.extensions.configuration.3.1.4.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.4\\microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.4\\microsoft.extensions.configuration.fileextensions.3.1.4.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.4\\microsoft.extensions.configuration.json.3.1.4.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.4\\microsoft.extensions.fileproviders.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.4\\microsoft.extensions.fileproviders.physical.3.1.4.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.4\\microsoft.extensions.filesystemglobbing.3.1.4.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\msgpack.cli\\0.6.5\\msgpack.cli.0.6.5.nupkg.sha512",
     "C:\\Users\\Enderson Yunda\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Enderson Yunda\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\stackexchange.redis\\1.0.488\\stackexchange.redis.1.0.488.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.io.pipelines\\4.7.1\\system.io.pipelines.4.7.1.nupkg.sha512",
     "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
     "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.net.http\\4.3.4\\system.net.http.4.3.4.nupkg.sha512",
     "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512",
-    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\system.text.encodings.web.4.7.1.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\Enderson Yunda\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
   ],
@@ -35,7 +43,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Degradación del paquete detectada: Xamarin.Essentials de 1.5.2 a 1.3.1. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Api.iOS -> Api -> Xamarin.Essentials (>= 1.5.2) \r\n Api.iOS -> Xamarin.Essentials (>= 1.3.1)",
+      "message": "Degradación del paquete detectada: Xamarin.Essentials de 1.5.3.2 a 1.3.1. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Api.iOS -> Api -> Xamarin.Essentials (>= 1.5.3.2) \r\n Api.iOS -> Xamarin.Essentials (>= 1.3.1)",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
@@ -48,12 +56,120 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Degradación del paquete detectada: Xamarin.Forms de 4.5.0.495 a 4.4.0.991265. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Api.iOS -> Api -> Xamarin.Forms (>= 4.5.0.495) \r\n Api.iOS -> Xamarin.Forms (>= 4.4.0.991265)",
+      "message": "Degradación del paquete detectada: Xamarin.Forms de 4.6.0.800 a 4.4.0.991265. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Api.iOS -> Api -> Xamarin.Forms (>= 4.6.0.800) \r\n Api.iOS -> Xamarin.Forms (>= 4.4.0.991265)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
         "Xamarin.iOS,Version=v1.0/win",
         "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete JSON 1.0.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0). El paquete JSON 1.0.1 admite:\r\n  - net35 (.NETFramework,Version=v3.5)\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - sl3 (Silverlight,Version=v3.0)\r\n  - sl4 (Silverlight,Version=v4.0)\r\n  - wp (WindowsPhone,Version=v0.0)",
+      "libraryId": "JSON",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete DoubleCache 1.6.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0). El paquete DoubleCache 1.6.1 admite: net45 (.NETFramework,Version=v4.5)",
+      "libraryId": "DoubleCache",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete StackExchange.Redis 1.0.488 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0). El paquete StackExchange.Redis 1.0.488 admite:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)",
+      "libraryId": "StackExchange.Redis",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete JSON 1.0.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win. El paquete JSON 1.0.1 admite:\r\n  - net35 (.NETFramework,Version=v3.5)\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - sl3 (Silverlight,Version=v3.0)\r\n  - sl4 (Silverlight,Version=v4.0)\r\n  - wp (WindowsPhone,Version=v0.0)",
+      "libraryId": "JSON",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete DoubleCache 1.6.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win. El paquete DoubleCache 1.6.1 admite: net45 (.NETFramework,Version=v4.5)",
+      "libraryId": "DoubleCache",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete StackExchange.Redis 1.0.488 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win. El paquete StackExchange.Redis 1.0.488 admite:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)",
+      "libraryId": "StackExchange.Redis",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete JSON 1.0.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. El paquete JSON 1.0.1 admite:\r\n  - net35 (.NETFramework,Version=v3.5)\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - sl3 (Silverlight,Version=v3.0)\r\n  - sl4 (Silverlight,Version=v4.0)\r\n  - wp (WindowsPhone,Version=v0.0)",
+      "libraryId": "JSON",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete DoubleCache 1.6.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. El paquete DoubleCache 1.6.1 admite: net45 (.NETFramework,Version=v4.5)",
+      "libraryId": "DoubleCache",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete StackExchange.Redis 1.0.488 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. El paquete StackExchange.Redis 1.0.488 admite:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)",
+      "libraryId": "StackExchange.Redis",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete JSON 1.0.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. El paquete JSON 1.0.1 admite:\r\n  - net35 (.NETFramework,Version=v3.5)\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - sl3 (Silverlight,Version=v3.0)\r\n  - sl4 (Silverlight,Version=v4.0)\r\n  - wp (WindowsPhone,Version=v0.0)",
+      "libraryId": "JSON",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete DoubleCache 1.6.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. El paquete DoubleCache 1.6.1 admite: net45 (.NETFramework,Version=v4.5)",
+      "libraryId": "DoubleCache",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete StackExchange.Redis 1.0.488 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. El paquete StackExchange.Redis 1.0.488 admite:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)",
+      "libraryId": "StackExchange.Redis",
+      "targetGraphs": [
         "Xamarin.iOS,Version=v1.0/win-x86"
       ]
     }

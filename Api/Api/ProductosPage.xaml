@@ -16,7 +16,7 @@
                             <ColumnDefinition Width="5*"/>
 
                         </Grid.ColumnDefinitions>
-                        <Button Text="Agregar" Grid.Column="0"/>
+                        <Button Text="Agregar" x:Name="btnagregar" Grid.Column="0"/>
                         <Button Text="Eliminar" Grid.Column="1"/>
 
                         <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>

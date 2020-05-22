@@ -16,8 +16,8 @@
                             <ColumnDefinition Width="5*"/>
 
                         </Grid.ColumnDefinitions>
-                        <Button Text="Agregar" Grid.Column="0"/>
-                        <Button Text="Eliminar" Grid.Column="1"/>
+                        <Button Text="Mensajes" x:Name="btnmensajes" Grid.Column="0"/>
+                        <Button Text="Ver chat" x:Name="btnchat" Grid.Column="1"/>
 
                         <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
                         <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
